@@ -14,9 +14,6 @@ jobs:
           distribution: 'temurin'
 
       - name: Build with Maven
-        run: |
-          ls
-          ls demo-ci || :
-          mvn package
+        run: mvn package
 
 
